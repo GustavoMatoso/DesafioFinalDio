@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A783852B87E1101A3B5006B /* Pods_desafioFinal1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B4A078B45C6FC46E8BB6B2C /* Pods_desafioFinal1.framework */; };
+		DF28902B2ADC70EC00E596BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF28902A2ADC70EC00E596BC /* AppDelegate.swift */; };
+		DF28902D2ADC70EC00E596BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF28902C2ADC70EC00E596BC /* SceneDelegate.swift */; };
+		DF28902F2ADC70EC00E596BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF28902E2ADC70EC00E596BC /* ViewController.swift */; };
+		DF2890322ADC70EC00E596BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF2890302ADC70EC00E596BC /* Main.storyboard */; };
+		DF2890352ADC70EC00E596BC /* desafioFinal1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF2890332ADC70EC00E596BC /* desafioFinal1.xcdatamodeld */; };
+		DF2890372ADC70EE00E596BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF2890362ADC70EE00E596BC /* Assets.xcassets */; };
+		DF28903A2ADC70EE00E596BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF2890382ADC70EE00E596BC /* LaunchScreen.storyboard */; };
+		DFA3B9032AE45DEB0005FF32 /* LOGO-DIO-COLOR.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA3B9022AE45DEB0005FF32 /* LOGO-DIO-COLOR.png */; };
+		DFA518752ADC831300730F2A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFA518742ADC831300730F2A /* GoogleService-Info.plist */; };
+		DFC5835B2ADC97B300628DA6 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC5835A2ADC97B300628DA6 /* loginViewController.swift */; };
+		DFC5835F2ADCA40200628DA6 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC5835D2ADCA40200628DA6 /* TableViewCell.swift */; };
+		DFC583602ADCA40200628DA6 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFC5835E2ADCA40200628DA6 /* TableViewCell.xib */; };
+		DFC583622ADCC48D00628DA6 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC583612ADCC48D00628DA6 /* DetailsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		139D377269A959AB000CBC5B /* Pods-desafioFinal1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-desafioFinal1.release.xcconfig"; path = "Target Support Files/Pods-desafioFinal1/Pods-desafioFinal1.release.xcconfig"; sourceTree = "<group>"; };
+		3B4A078B45C6FC46E8BB6B2C /* Pods_desafioFinal1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_desafioFinal1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69A3E3D724F78EBA12E291F3 /* Pods-desafioFinal1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-desafioFinal1.debug.xcconfig"; path = "Target Support Files/Pods-desafioFinal1/Pods-desafioFinal1.debug.xcconfig"; sourceTree = "<group>"; };
+		DF2890272ADC70EC00E596BC /* desafioFinal1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = desafioFinal1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF28902A2ADC70EC00E596BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF28902C2ADC70EC00E596BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DF28902E2ADC70EC00E596BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF2890312ADC70EC00E596BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF2890342ADC70EC00E596BC /* desafioFinal1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = desafioFinal1.xcdatamodel; sourceTree = "<group>"; };
+		DF2890362ADC70EE00E596BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF2890392ADC70EE00E596BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF28903B2ADC70EE00E596BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFA3B9022AE45DEB0005FF32 /* LOGO-DIO-COLOR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LOGO-DIO-COLOR.png"; path = "desafioFinal1/Assets.xcassets/LOGO-DIO-COLOR.imageset/LOGO-DIO-COLOR.png"; sourceTree = SOURCE_ROOT; };
+		DFA518742ADC831300730F2A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DFC5835A2ADC97B300628DA6 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		DFC5835D2ADCA40200628DA6 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		DFC5835E2ADCA40200628DA6 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		DFC583612ADCC48D00628DA6 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF2890242ADC70EC00E596BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A783852B87E1101A3B5006B /* Pods_desafioFinal1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5F7226BFE74588C8A9A70CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69A3E3D724F78EBA12E291F3 /* Pods-desafioFinal1.debug.xcconfig */,
+				139D377269A959AB000CBC5B /* Pods-desafioFinal1.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C9404609E3E334D556C09552 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B4A078B45C6FC46E8BB6B2C /* Pods_desafioFinal1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF28901E2ADC70EC00E596BC = {
+			isa = PBXGroup;
+			children = (
+				DF2890292ADC70EC00E596BC /* desafioFinal1 */,
+				DF2890282ADC70EC00E596BC /* Products */,
+				C5F7226BFE74588C8A9A70CF /* Pods */,
+				C9404609E3E334D556C09552 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DF2890282ADC70EC00E596BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF2890272ADC70EC00E596BC /* desafioFinal1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF2890292ADC70EC00E596BC /* desafioFinal1 */ = {
+			isa = PBXGroup;
+			children = (
+				DFC583632ADCEE5D00628DA6 /* images */,
+				DFC5835C2ADCA39E00628DA6 /* Cells */,
+				DF28902A2ADC70EC00E596BC /* AppDelegate.swift */,
+				DF28902C2ADC70EC00E596BC /* SceneDelegate.swift */,
+				DF28902E2ADC70EC00E596BC /* ViewController.swift */,
+				DF2890302ADC70EC00E596BC /* Main.storyboard */,
+				DF2890362ADC70EE00E596BC /* Assets.xcassets */,
+				DF2890382ADC70EE00E596BC /* LaunchScreen.storyboard */,
+				DF28903B2ADC70EE00E596BC /* Info.plist */,
+				DF2890332ADC70EC00E596BC /* desafioFinal1.xcdatamodeld */,
+				DFA518742ADC831300730F2A /* GoogleService-Info.plist */,
+				DFC5835A2ADC97B300628DA6 /* loginViewController.swift */,
+				DFC583612ADCC48D00628DA6 /* DetailsViewController.swift */,
+			);
+			path = desafioFinal1;
+			sourceTree = "<group>";
+		};
+		DFC5835C2ADCA39E00628DA6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DFC5835D2ADCA40200628DA6 /* TableViewCell.swift */,
+				DFC5835E2ADCA40200628DA6 /* TableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		DFC583632ADCEE5D00628DA6 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				DFA3B9022AE45DEB0005FF32 /* LOGO-DIO-COLOR.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF2890262ADC70EC00E596BC /* desafioFinal1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF28903E2ADC70EE00E596BC /* Build configuration list for PBXNativeTarget "desafioFinal1" */;
+			buildPhases = (
+				29F0E9E2A85FE53ADC2D220D /* [CP] Check Pods Manifest.lock */,
+				DF2890232ADC70EC00E596BC /* Sources */,
+				DF2890242ADC70EC00E596BC /* Frameworks */,
+				DF2890252ADC70EC00E596BC /* Resources */,
+				5F053E6726EE527733C5E298 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = desafioFinal1;
+			productName = desafioFinal1;
+			productReference = DF2890272ADC70EC00E596BC /* desafioFinal1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF28901F2ADC70EC00E596BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					DF2890262ADC70EC00E596BC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = DF2890222ADC70EC00E596BC /* Build configuration list for PBXProject "desafioFinal1" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF28901E2ADC70EC00E596BC;
+			productRefGroup = DF2890282ADC70EC00E596BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF2890262ADC70EC00E596BC /* desafioFinal1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF2890252ADC70EC00E596BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF28903A2ADC70EE00E596BC /* LaunchScreen.storyboard in Resources */,
+				DFC583602ADCA40200628DA6 /* TableViewCell.xib in Resources */,
+				DFA3B9032AE45DEB0005FF32 /* LOGO-DIO-COLOR.png in Resources */,
+				DFA518752ADC831300730F2A /* GoogleService-Info.plist in Resources */,
+				DF2890372ADC70EE00E596BC /* Assets.xcassets in Resources */,
+				DF2890322ADC70EC00E596BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29F0E9E2A85FE53ADC2D220D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-desafioFinal1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F053E6726EE527733C5E298 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-desafioFinal1/Pods-desafioFinal1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-desafioFinal1/Pods-desafioFinal1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-desafioFinal1/Pods-desafioFinal1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF2890232ADC70EC00E596BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF2890352ADC70EC00E596BC /* desafioFinal1.xcdatamodeld in Sources */,
+				DF28902F2ADC70EC00E596BC /* ViewController.swift in Sources */,
+				DF28902B2ADC70EC00E596BC /* AppDelegate.swift in Sources */,
+				DFC5835F2ADCA40200628DA6 /* TableViewCell.swift in Sources */,
+				DFC583622ADCC48D00628DA6 /* DetailsViewController.swift in Sources */,
+				DF28902D2ADC70EC00E596BC /* SceneDelegate.swift in Sources */,
+				DFC5835B2ADC97B300628DA6 /* loginViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF2890302ADC70EC00E596BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF2890312ADC70EC00E596BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF2890382ADC70EE00E596BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF2890392ADC70EE00E596BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF28903C2ADC70EE00E596BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF28903D2ADC70EE00E596BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF28903F2ADC70EE00E596BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69A3E3D724F78EBA12E291F3 /* Pods-desafioFinal1.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38UD7U86KY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = desafioFinal1/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ghms.desafioFinal1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF2890402ADC70EE00E596BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 139D377269A959AB000CBC5B /* Pods-desafioFinal1.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38UD7U86KY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = desafioFinal1/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ghms.desafioFinal1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF2890222ADC70EC00E596BC /* Build configuration list for PBXProject "desafioFinal1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF28903C2ADC70EE00E596BC /* Debug */,
+				DF28903D2ADC70EE00E596BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF28903E2ADC70EE00E596BC /* Build configuration list for PBXNativeTarget "desafioFinal1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF28903F2ADC70EE00E596BC /* Debug */,
+				DF2890402ADC70EE00E596BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DF2890332ADC70EC00E596BC /* desafioFinal1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DF2890342ADC70EC00E596BC /* desafioFinal1.xcdatamodel */,
+			);
+			currentVersion = DF2890342ADC70EC00E596BC /* desafioFinal1.xcdatamodel */;
+			path = desafioFinal1.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DF28901F2ADC70EC00E596BC /* Project object */;
+}

@@ -1,0 +1,31 @@
+{
+  "name": "ColorFeature",
+  "version": "0.1.0",
+  "summary": "A short description of ColorFeature.",
+  "description": "Feature to get Gradient Color",
+  "homepage": "https://github.com/GustavoMatoso/ColorFeature",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "GustavoMatoso": "117685566+GustavoMatoso@users.noreply.github.com"
+  },
+  "source": {
+    "git": "https://github.com/GustavoMatoso/ColorFeature.git",
+    "tag": "0.1.0"
+  },
+  "swift_versions": "5.0",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "ColorFeature/Classes/**/*",
+  "default_subspecs": "Release",
+  "subspecs": [
+    {
+      "name": "Release",
+      "vendored_frameworks": "Framework/ColorFeature.framework"
+    }
+  ],
+  "swift_version": "5.0"
+}

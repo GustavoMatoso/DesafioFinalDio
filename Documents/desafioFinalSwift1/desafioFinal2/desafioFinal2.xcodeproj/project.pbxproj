@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF3D71A22AE00F5A00B4B7F6 /* AllNewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3D71A12AE00F5A00B4B7F6 /* AllNewsViewModel.swift */; };
+		DF3D71B02AE3A05B00B4B7F6 /* TechViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3D71AF2AE3A05B00B4B7F6 /* TechViewModel.swift */; };
+		DF3D71B22AE3A60A00B4B7F6 /* SpaceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3D71B12AE3A60A00B4B7F6 /* SpaceViewModel.swift */; };
+		DF3D71B42AE4123A00B4B7F6 /* NewsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3D71B32AE4123A00B4B7F6 /* NewsListView.swift */; };
+		DF3D71B62AE4248400B4B7F6 /* TechNewsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3D71B52AE4248400B4B7F6 /* TechNewsListView.swift */; };
+		DF3D71B82AE4255A00B4B7F6 /* SpaceNewsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3D71B72AE4255A00B4B7F6 /* SpaceNewsListView.swift */; };
+		DF4EA3622ADE321A00002DB9 /* desafioFinal2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4EA3612ADE321A00002DB9 /* desafioFinal2App.swift */; };
+		DF4EA3642ADE321A00002DB9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4EA3632ADE321A00002DB9 /* ContentView.swift */; };
+		DF4EA3662ADE321C00002DB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF4EA3652ADE321C00002DB9 /* Assets.xcassets */; };
+		DF4EA3692ADE321C00002DB9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF4EA3682ADE321C00002DB9 /* Preview Assets.xcassets */; };
+		DF4EA3722ADE3C0B00002DB9 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = DF4EA3712ADE3C0B00002DB9 /* Alamofire */; };
+		DF4EA3752ADE3CCF00002DB9 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = DF4EA3742ADE3CCF00002DB9 /* Algorithms */; };
+		DF4EA37A2ADE3F6A00002DB9 /* SpaceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4EA3792ADE3F6A00002DB9 /* SpaceData.swift */; };
+		DF4EA37C2ADF6E6200002DB9 /* TechData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4EA37B2ADF6E6200002DB9 /* TechData.swift */; };
+		DFA3B8E92AE45A3C0005FF32 /* allnewsback.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA3B8E82AE45A3C0005FF32 /* allnewsback.jpg */; };
+		DFA3B8EB2AE45C530005FF32 /* Arstechnica.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA3B8EA2AE45C530005FF32 /* Arstechnica.png */; };
+		DFA3B8ED2AE45C610005FF32 /* CNBC.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA3B8EC2AE45C610005FF32 /* CNBC.png */; };
+		DFA3B8EF2AE45C6A0005FF32 /* European Spaceflight.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA3B8EE2AE45C6A0005FF32 /* European Spaceflight.png */; };
+		DFA3B8F12AE45C730005FF32 /* NASA.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DFA3B8F02AE45C730005FF32 /* NASA.jpeg */; };
+		DFA3B8F32AE45C790005FF32 /* NASASpaceflight.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DFA3B8F22AE45C790005FF32 /* NASASpaceflight.jpeg */; };
+		DFA3B8F52AE45C880005FF32 /* spaceback.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA3B8F42AE45C880005FF32 /* spaceback.jpg */; };
+		DFA3B8F72AE45C910005FF32 /* Spaceflight Now.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DFA3B8F62AE45C910005FF32 /* Spaceflight Now.jpeg */; };
+		DFA3B8F92AE45C9F0005FF32 /* SpaceNews.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA3B8F82AE45C9F0005FF32 /* SpaceNews.png */; };
+		DFA3B8FB2AE45CA70005FF32 /* SpacePolicyOnline.com.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DFA3B8FA2AE45CA70005FF32 /* SpacePolicyOnline.com.jpeg */; };
+		DFA3B8FD2AE45CB30005FF32 /* techimage1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DFA3B8FC2AE45CB30005FF32 /* techimage1.jpeg */; };
+		DFA3B8FF2AE45CD50005FF32 /* technews.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA3B8FE2AE45CD50005FF32 /* technews.png */; };
+		DFA3B9012AE45CE90005FF32 /* technewsback.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA3B9002AE45CE90005FF32 /* technewsback.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF3D71A12AE00F5A00B4B7F6 /* AllNewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllNewsViewModel.swift; sourceTree = "<group>"; };
+		DF3D71AF2AE3A05B00B4B7F6 /* TechViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechViewModel.swift; sourceTree = "<group>"; };
+		DF3D71B12AE3A60A00B4B7F6 /* SpaceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceViewModel.swift; sourceTree = "<group>"; };
+		DF3D71B32AE4123A00B4B7F6 /* NewsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListView.swift; sourceTree = "<group>"; };
+		DF3D71B52AE4248400B4B7F6 /* TechNewsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechNewsListView.swift; sourceTree = "<group>"; };
+		DF3D71B72AE4255A00B4B7F6 /* SpaceNewsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceNewsListView.swift; sourceTree = "<group>"; };
+		DF4EA35E2ADE321A00002DB9 /* desafioFinal2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = desafioFinal2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF4EA3612ADE321A00002DB9 /* desafioFinal2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = desafioFinal2App.swift; sourceTree = "<group>"; };
+		DF4EA3632ADE321A00002DB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DF4EA3652ADE321C00002DB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF4EA3682ADE321C00002DB9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF4EA3792ADE3F6A00002DB9 /* SpaceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceData.swift; sourceTree = "<group>"; };
+		DF4EA37B2ADF6E6200002DB9 /* TechData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechData.swift; sourceTree = "<group>"; };
+		DFA3B8E82AE45A3C0005FF32 /* allnewsback.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = allnewsback.jpg; sourceTree = "<group>"; };
+		DFA3B8EA2AE45C530005FF32 /* Arstechnica.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arstechnica.png; sourceTree = "<group>"; };
+		DFA3B8EC2AE45C610005FF32 /* CNBC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CNBC.png; sourceTree = "<group>"; };
+		DFA3B8EE2AE45C6A0005FF32 /* European Spaceflight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "European Spaceflight.png"; sourceTree = "<group>"; };
+		DFA3B8F02AE45C730005FF32 /* NASA.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NASA.jpeg; sourceTree = "<group>"; };
+		DFA3B8F22AE45C790005FF32 /* NASASpaceflight.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NASASpaceflight.jpeg; sourceTree = "<group>"; };
+		DFA3B8F42AE45C880005FF32 /* spaceback.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spaceback.jpg; sourceTree = "<group>"; };
+		DFA3B8F62AE45C910005FF32 /* Spaceflight Now.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Spaceflight Now.jpeg"; sourceTree = "<group>"; };
+		DFA3B8F82AE45C9F0005FF32 /* SpaceNews.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpaceNews.png; sourceTree = "<group>"; };
+		DFA3B8FA2AE45CA70005FF32 /* SpacePolicyOnline.com.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SpacePolicyOnline.com.jpeg; sourceTree = "<group>"; };
+		DFA3B8FC2AE45CB30005FF32 /* techimage1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = techimage1.jpeg; sourceTree = "<group>"; };
+		DFA3B8FE2AE45CD50005FF32 /* technews.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = technews.png; sourceTree = "<group>"; };
+		DFA3B9002AE45CE90005FF32 /* technewsback.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = technewsback.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF4EA35B2ADE321A00002DB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF4EA3752ADE3CCF00002DB9 /* Algorithms in Frameworks */,
+				DF4EA3722ADE3C0B00002DB9 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF4EA3552ADE321A00002DB9 = {
+			isa = PBXGroup;
+			children = (
+				DF4EA3602ADE321A00002DB9 /* desafioFinal2 */,
+				DF4EA35F2ADE321A00002DB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF4EA35F2ADE321A00002DB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF4EA35E2ADE321A00002DB9 /* desafioFinal2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF4EA3602ADE321A00002DB9 /* desafioFinal2 */ = {
+			isa = PBXGroup;
+			children = (
+				DFA3B8E72AE459170005FF32 /* Images */,
+				DF4EA3612ADE321A00002DB9 /* desafioFinal2App.swift */,
+				DF4EA3762ADE3D0F00002DB9 /* Models */,
+				DF4EA36F2ADE326000002DB9 /* Views */,
+				DF4EA3652ADE321C00002DB9 /* Assets.xcassets */,
+				DF4EA3672ADE321C00002DB9 /* Preview Content */,
+			);
+			path = desafioFinal2;
+			sourceTree = "<group>";
+		};
+		DF4EA3672ADE321C00002DB9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DF4EA3682ADE321C00002DB9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DF4EA36F2ADE326000002DB9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DF4EA3632ADE321A00002DB9 /* ContentView.swift */,
+				DF3D71B32AE4123A00B4B7F6 /* NewsListView.swift */,
+				DF3D71B52AE4248400B4B7F6 /* TechNewsListView.swift */,
+				DF3D71B72AE4255A00B4B7F6 /* SpaceNewsListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DF4EA3762ADE3D0F00002DB9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DF4EA3792ADE3F6A00002DB9 /* SpaceData.swift */,
+				DF4EA37B2ADF6E6200002DB9 /* TechData.swift */,
+				DF3D71A12AE00F5A00B4B7F6 /* AllNewsViewModel.swift */,
+				DF3D71AF2AE3A05B00B4B7F6 /* TechViewModel.swift */,
+				DF3D71B12AE3A60A00B4B7F6 /* SpaceViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DFA3B8E72AE459170005FF32 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DFA3B8EA2AE45C530005FF32 /* Arstechnica.png */,
+				DFA3B8E82AE45A3C0005FF32 /* allnewsback.jpg */,
+				DFA3B8EC2AE45C610005FF32 /* CNBC.png */,
+				DFA3B8EE2AE45C6A0005FF32 /* European Spaceflight.png */,
+				DFA3B8F02AE45C730005FF32 /* NASA.jpeg */,
+				DFA3B8F22AE45C790005FF32 /* NASASpaceflight.jpeg */,
+				DFA3B8F42AE45C880005FF32 /* spaceback.jpg */,
+				DFA3B8F62AE45C910005FF32 /* Spaceflight Now.jpeg */,
+				DFA3B8F82AE45C9F0005FF32 /* SpaceNews.png */,
+				DFA3B8FA2AE45CA70005FF32 /* SpacePolicyOnline.com.jpeg */,
+				DFA3B8FC2AE45CB30005FF32 /* techimage1.jpeg */,
+				DFA3B8FE2AE45CD50005FF32 /* technews.png */,
+				DFA3B9002AE45CE90005FF32 /* technewsback.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF4EA35D2ADE321A00002DB9 /* desafioFinal2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF4EA36C2ADE321C00002DB9 /* Build configuration list for PBXNativeTarget "desafioFinal2" */;
+			buildPhases = (
+				DF4EA35A2ADE321A00002DB9 /* Sources */,
+				DF4EA35B2ADE321A00002DB9 /* Frameworks */,
+				DF4EA35C2ADE321A00002DB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = desafioFinal2;
+			packageProductDependencies = (
+				DF4EA3712ADE3C0B00002DB9 /* Alamofire */,
+				DF4EA3742ADE3CCF00002DB9 /* Algorithms */,
+			);
+			productName = desafioFinal2;
+			productReference = DF4EA35E2ADE321A00002DB9 /* desafioFinal2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF4EA3562ADE321A00002DB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					DF4EA35D2ADE321A00002DB9 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = DF4EA3592ADE321A00002DB9 /* Build configuration list for PBXProject "desafioFinal2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF4EA3552ADE321A00002DB9;
+			packageReferences = (
+				DF4EA3702ADE3C0B00002DB9 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				DF4EA3732ADE3CCF00002DB9 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+			);
+			productRefGroup = DF4EA35F2ADE321A00002DB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF4EA35D2ADE321A00002DB9 /* desafioFinal2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF4EA35C2ADE321A00002DB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA3B8E92AE45A3C0005FF32 /* allnewsback.jpg in Resources */,
+				DFA3B9012AE45CE90005FF32 /* technewsback.jpg in Resources */,
+				DFA3B8F12AE45C730005FF32 /* NASA.jpeg in Resources */,
+				DFA3B8F52AE45C880005FF32 /* spaceback.jpg in Resources */,
+				DF4EA3692ADE321C00002DB9 /* Preview Assets.xcassets in Resources */,
+				DFA3B8FB2AE45CA70005FF32 /* SpacePolicyOnline.com.jpeg in Resources */,
+				DFA3B8F72AE45C910005FF32 /* Spaceflight Now.jpeg in Resources */,
+				DFA3B8ED2AE45C610005FF32 /* CNBC.png in Resources */,
+				DFA3B8FD2AE45CB30005FF32 /* techimage1.jpeg in Resources */,
+				DF4EA3662ADE321C00002DB9 /* Assets.xcassets in Resources */,
+				DFA3B8F32AE45C790005FF32 /* NASASpaceflight.jpeg in Resources */,
+				DFA3B8FF2AE45CD50005FF32 /* technews.png in Resources */,
+				DFA3B8EF2AE45C6A0005FF32 /* European Spaceflight.png in Resources */,
+				DFA3B8EB2AE45C530005FF32 /* Arstechnica.png in Resources */,
+				DFA3B8F92AE45C9F0005FF32 /* SpaceNews.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF4EA35A2ADE321A00002DB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF4EA37C2ADF6E6200002DB9 /* TechData.swift in Sources */,
+				DF3D71B42AE4123A00B4B7F6 /* NewsListView.swift in Sources */,
+				DF3D71B22AE3A60A00B4B7F6 /* SpaceViewModel.swift in Sources */,
+				DF4EA3642ADE321A00002DB9 /* ContentView.swift in Sources */,
+				DF3D71B62AE4248400B4B7F6 /* TechNewsListView.swift in Sources */,
+				DF3D71B02AE3A05B00B4B7F6 /* TechViewModel.swift in Sources */,
+				DF4EA37A2ADE3F6A00002DB9 /* SpaceData.swift in Sources */,
+				DF4EA3622ADE321A00002DB9 /* desafioFinal2App.swift in Sources */,
+				DF3D71B82AE4255A00B4B7F6 /* SpaceNewsListView.swift in Sources */,
+				DF3D71A22AE00F5A00B4B7F6 /* AllNewsViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DF4EA36A2ADE321C00002DB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF4EA36B2ADE321C00002DB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF4EA36D2ADE321C00002DB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"desafioFinal2/Preview Content\"";
+				DEVELOPMENT_TEAM = 38UD7U86KY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ghms.desafioFinal2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF4EA36E2ADE321C00002DB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"desafioFinal2/Preview Content\"";
+				DEVELOPMENT_TEAM = 38UD7U86KY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ghms.desafioFinal2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF4EA3592ADE321A00002DB9 /* Build configuration list for PBXProject "desafioFinal2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF4EA36A2ADE321C00002DB9 /* Debug */,
+				DF4EA36B2ADE321C00002DB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF4EA36C2ADE321C00002DB9 /* Build configuration list for PBXNativeTarget "desafioFinal2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF4EA36D2ADE321C00002DB9 /* Debug */,
+				DF4EA36E2ADE321C00002DB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DF4EA3702ADE3C0B00002DB9 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		DF4EA3732ADE3CCF00002DB9 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DF4EA3712ADE3C0B00002DB9 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF4EA3702ADE3C0B00002DB9 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		DF4EA3742ADE3CCF00002DB9 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF4EA3732ADE3CCF00002DB9 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DF4EA3562ADE321A00002DB9 /* Project object */;
+}

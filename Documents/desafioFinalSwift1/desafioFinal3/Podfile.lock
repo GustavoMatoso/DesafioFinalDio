@@ -1,0 +1,18 @@
+PODS:
+  - ColorFeature (0.1.0):
+    - ColorFeature/Release (= 0.1.0)
+  - ColorFeature/Release (0.1.0)
+
+DEPENDENCIES:
+  - ColorFeature (from `../modularizacao/ColorFeature/`)
+
+EXTERNAL SOURCES:
+  ColorFeature:
+    :path: "../modularizacao/ColorFeature/"
+
+SPEC CHECKSUMS:
+  ColorFeature: 0f02bfebf9434d1360910c9480891a97e37e1770
+
+PODFILE CHECKSUM: 2aa0a0620ebe5c7e2fcfe79e0c707a286f1ec9a1
+
+COCOAPODS: 1.12.0
