@@ -60,7 +60,7 @@ class AllNewsViewModel: ObservableObject {
                 case .finished:
                     break
                 case .failure(let error):
-                    // Lide com o erro de maneira específica, se necessário
+                    
                     print("Erro: \(error)")
                 }
             }, receiveValue: { [weak self] combinedNews in

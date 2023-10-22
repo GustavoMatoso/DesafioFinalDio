@@ -71,10 +71,10 @@ class DetailsViewController: UIViewController {
         
         label.translatesAutoresizingMaskIntoConstraints = false
         
-        NSLayoutConstraint.activate([ label.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 20), // Margem superior de 20 pontos
-                                     label.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 20), // Margem esquerda de 20 pontos
-                                      label.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -20), // Margem direita de 20 pontos
-                                      label.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -20) // Margem inferior de 20 pontos
+        NSLayoutConstraint.activate([ label.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 20),
+                                     label.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 20),
+                                      label.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -20),
+                                      label.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -20)
                                   ])
     }
 }
